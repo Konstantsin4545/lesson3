@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../images/headerback.jpg);
+    background-position: 80%;
+    background-repeat: no-repeat;
+    background-color: rgb(250, 250, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+
+.logo{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.razdel{
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-image: linear-gradient(to top, rgb(250, 250, 250), rgb(141, 141, 141), rgb(250, 250, 250));
+    vertical-align: middle;
+}
+
+.headertext{
+    display: inline-block;
+    width: 25%;
+    padding-left: 4%;
+    vertical-align: middle;
+}
+
+.text{
+    color: lightblue;
+}
